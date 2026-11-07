@@ -1,0 +1,55 @@
+{
+  "nation": "White Earth",
+  "about": {
+    "lead": "Gaa-waabaabiganikaag, the White Earth Nation, governs an 829,440-acre reservation in northwestern Minnesota covering all of Mahnomen County and parts of Becker and Clearwater counties. The name refers to the layer of white clay under the western half of the reservation.",
+    "facts": [
+      {"title": "Land and communities", "text": "Prairie in the west gives way to rolling hills, lakes and rivers in the middle and conifer forest in the east. Communities include White Earth, Pine Point/Ponsford, Naytahwaush, Elbow Lake and Rice Lake, alongside the incorporated cities of Callaway, Ogema, Waubun and Mahnomen. Tribal headquarters are in White Earth, about 68 miles east of Fargo.", "source": "miac"},
+      {"title": "Government", "text": "The White Earth Tribal Council governs, and the Nation is a member of the Minnesota Chippewa Tribe. The Nation runs its own conservation department, police department and civil court; the state holds criminal jurisdiction over Indians on the reservation.", "source": "miac"},
+      {"title": "Economy", "text": "Shooting Star Casino and Hotel in Mahnomen is the largest employer in Mahnomen County, with a 390-room hotel and an RV park. The Nation also owns Ojibwe Building Supplies, Ojibwe Office Supplies, a solid waste transfer station and a health claims administration office.", "source": "miac"},
+      {"title": "Land ownership today", "text": "The Nation owns about 10% of the land within the reservation, up from 6% in 1978. Private owners hold 51%, counties 17%, the federal government 15% and the state 7%.", "source": "miac"}
+    ],
+    "timeline": [
+      {"year": "1867", "text": "A treaty with the Mississippi Band of Ojibwe creates the reservation, which was not the historic homeland of any Ojibwe group."},
+      {"year": "1868", "text": "Mississippi Band members from Gull Lake are the first to settle around White Earth Village."},
+      {"year": "1887–1906", "text": "The Dawes, Nelson, Clapp and Snyder Acts allot the reservation. Fraud, tax forfeiture and forced sales move much of the land into non-Indian ownership."},
+      {"year": "1936", "text": "The Collier agreement creates Tamarac National Wildlife Refuge while keeping members' rights to hunt, fish and gather there."},
+      {"year": "1977", "text": "Clark v. State of Minnesota: the reservation was not disestablished by the Nelson Act of 1889."},
+      {"year": "1981", "text": "White Earth Band of Chippewa v. Alexander reaffirms rights to hunt, fish and gather wild rice free of state regulation across the reservation."},
+      {"year": "1986", "text": "White Earth Land Settlement Act: 10,000 acres of state and county land are to be transferred to the Nation, plus $6.5 million for economic development that started Shooting Star Casino. The trust transfer is still incomplete."},
+      {"year": "2008", "text": "A new tribal headquarters and community center open in White Earth Village."}
+    ],
+    "timeline_source": "miac"
+  },
+  "sources": {
+    "miac": {"label": "Minnesota Indian Affairs Council, Gaa-waabaabiganikaag / White Earth Nation", "url": "https://mn.gov/indian-affairs/tribal-nations-in-minnesota/gaa-waabaabiganikaag-white-earth-nation.jsp"},
+    "history": {"label": "White Earth Nation, History", "url": "https://whiteearth.com/history"}
+  },
+  "swot": [
+    {"id": "S1", "cat": "Strength", "type": "Quantitative", "title": "Most households are online", "evidence": "85.1% ±1.0 pp subscribe to broadband, up from 67.2% in 2014–2018 (ACS).", "limit": "Subscription, not speed or affordability."},
+    {"id": "S2", "cat": "Strength", "type": "Quantitative", "title": "High-speed service reaches most homes", "evidence": "85.8% of 6,039 reservation locations have 100/20 Mbps available, and all 12 trust-land locations do (FCC, December 2025).", "limit": "Provider-reported availability."},
+    {"id": "S3", "cat": "Strength", "type": "Quantitative", "title": "Household income rose", "evidence": "Median household income $56,681 ±$2,617, up from $43,638 in 2014–2018 (ACS).", "limit": "Not adjusted for inflation; wide margin."},
+    {"id": "S4", "cat": "Strength", "type": "Quantitative", "title": "A rich natural land base", "evidence": "Of 3,012 km², 34.5% is forest, 18.1% wetlands and 5.6% open water, with 37.3% in agriculture (NLCD 2025).", "limit": "Land cover is not ownership or access."},
+    {"id": "S5", "cat": "Strength", "type": "Quantitative", "title": "Low natural hazard risk", "evidence": "All three counties are rated Very Low on FEMA's risk index (scores 37.4, 7.1 and 4.2), and Becker's community resilience is rated Very High (NRI).", "limit": "County-level index."},
+    {"id": "S6", "cat": "Strength", "type": "Qualitative", "title": "Treaty rights affirmed in court", "evidence": "Clark (1977) held the reservation was not disestablished; Alexander (1981) reaffirmed rights to hunt, fish and gather wild rice free of state regulation.", "limit": "Legal status, not economic value.", "sources": ["miac"]},
+    {"id": "S7", "cat": "Strength", "type": "Qualitative", "title": "Tribal enterprises anchor the local economy", "evidence": "Shooting Star Casino is the largest employer in Mahnomen County; the Nation also runs supply, waste and health-claims businesses.", "limit": "Employment counts are not published in the source.", "sources": ["miac"]},
+    {"id": "W1", "cat": "Weakness", "type": "Quantitative", "title": "One in five residents is in poverty", "evidence": "21.6% ±1.9 pp of residents are below the poverty line (ACS).", "limit": "All residents, not citizens only."},
+    {"id": "W2", "cat": "Weakness", "type": "Quantitative", "title": "Fewer residents in work", "evidence": "Labor force participation is 56.1% ±0.9 pp, and 51.1% ±1.0 pp of adults are employed (ACS).", "limit": "Does not show barriers such as transport or childcare."},
+    {"id": "W3", "cat": "Weakness", "type": "Quantitative", "title": "Lower degree attainment", "evidence": "16.5% ±1.4 pp of adults 25 and older hold a bachelor's degree or higher (ACS).", "limit": "Says nothing about trade or tribal credentials."},
+    {"id": "W4", "cat": "Weakness", "type": "Quantitative", "title": "Renters face high housing costs", "evidence": "32.9% ±4.1 pp of renters pay 30% or more of income, 267 of 812 with a computable ratio (ACS).", "limit": "Wide margin; 109 renters had no computable ratio."},
+    {"id": "W5", "cat": "Weakness", "type": "Quantitative", "title": "Older housing stock", "evidence": "2,761 of 5,194 housing units (53.2%) were built before 1980 (ACS).", "limit": "Age is not condition."},
+    {"id": "W6", "cat": "Weakness", "type": "Quantitative", "title": "Population edging down", "evidence": "9,456 ±255 residents, down from 9,845 ±165 in 2014–2018 (ACS).", "limit": "Overlapping periods; residents, not enrolled members."},
+    {"id": "W7", "cat": "Weakness", "type": "Qualitative", "title": "Little land under tribal ownership", "evidence": "The Nation owns about 10% of land within the reservation; private owners hold 51%.", "limit": "The source page was last updated in 2024.", "sources": ["miac"]},
+    {"id": "O1", "cat": "Opportunity", "type": "Quantitative", "title": "A strong lake and seasonal economy", "evidence": "1,315 ±73 vacant units, 78.3% of vacant homes, are held for seasonal or recreational use (ACS).", "limit": "Not available housing; owners may be non-residents."},
+    {"id": "O2", "cat": "Opportunity", "type": "Quantitative", "title": "Homes that could return to use", "evidence": "About 364 ±39 vacant units are not seasonal (ACS).", "limit": "Condition, ownership and availability are unknown."},
+    {"id": "O3", "cat": "Opportunity", "type": "Qualitative", "title": "Land still due to the Nation", "evidence": "The 1986 White Earth Land Settlement Act promised 10,000 acres in trust; the federal transfer is still incomplete.", "limit": "Timing depends on federal action.", "sources": ["miac"]},
+    {"id": "O4", "cat": "Opportunity", "type": "Quantitative", "title": "Growth in building trades", "evidence": "Construction establishments rose 7.9% (216 to 233) and wholesale 6.8% (44 to 47), 2018 to 2023 (CBP).", "limit": "Small counts; establishments, not jobs."},
+    {"id": "O5", "cat": "Opportunity", "type": "Quantitative", "title": "A recovering regional job market", "evidence": "Jobs rose from 19,008 in 2018 to 19,955 in 2025 (QCEW), and unemployment fell from 8.1% in 2020 to 4.2% in 2024 (LAUS).", "limit": "County-level."},
+    {"id": "O6", "cat": "Opportunity", "type": "Quantitative", "title": "A small, closable broadband gap", "evidence": "About 858 reservation locations still lack 100/20 Mbps service (FCC, December 2025).", "limit": "Provider-reported; the cost to close it is unknown."},
+    {"id": "T1", "cat": "Threat", "type": "Quantitative", "title": "Almost no local power generation", "evidence": "12.5 MW of operating capacity in the three counties, all fuel oil, and no proposed generators (EIA-860, 2025).", "limit": "Power comes from the regional grid; outage data are not available."},
+    {"id": "T2", "cat": "Threat", "type": "Quantitative", "title": "High social vulnerability in Mahnomen", "evidence": "Mahnomen County's social vulnerability is rated Very High (NRI).", "limit": "Index rating."},
+    {"id": "T3", "cat": "Threat", "type": "Quantitative", "title": "Sensitive to economic shocks", "evidence": "Unemployment rose from 5.2% in 2019 to 8.1% in 2020, and jobs fell 7.7% (LAUS, QCEW).", "limit": "One shock; the region recovered by 2024."},
+    {"id": "T4", "cat": "Threat", "type": "Quantitative", "title": "Jobs leave the area", "evidence": "8,488 residents' jobs are elsewhere in Minnesota, versus 6,673 jobs filled from outside (LODES 2023).", "limit": "In-state flows only."},
+    {"id": "T5", "cat": "Threat", "type": "Quantitative", "title": "Visitor-linked businesses shrinking", "evidence": "Accommodation and food establishments fell 5.8% (120 to 113) and other services 9.4% (149 to 135), 2018 to 2023 (CBP).", "limit": "Small counts."},
+    {"id": "T6", "cat": "Threat", "type": "Quantitative", "title": "Small samples limit what data can show", "evidence": "Margins of error are about three times wider than Cherokee's (renter burden ±4.1 pp versus ±1.3 pp).", "limit": "A risk in reading the data, not a condition of the Nation."}
+  ]
+}

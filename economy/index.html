@@ -1,0 +1,66 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="robots" content="noindex, nofollow">
+<meta name="description" content="Community conditions, housing, the regional economy, land and energy, and a cited SWOT analysis for White Earth Nation, built from public federal data and published sources.">
+<title>Economy | White Earth Nation</title>
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' rx='6' fill='%231c5fa0'/%3E%3Crect y='24' width='32' height='8' fill='%23ffffff'/%3E%3C/svg%3E">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Source+Serif+4:opsz,wght@8..60,500;8..60,600;8..60,700&family=Source+Sans+3:wght@400;600;700&display=swap">
+<link rel="stylesheet" href="../assets/css/style.css">
+<link rel="stylesheet" href="../assets/css/theme.css">
+</head>
+<body class="site-white-earth" data-root="../" data-page="economy" data-nation="White Earth">
+<a class="skip-link" href="#main">Skip to content</a>
+<header data-site-header></header>
+<main id="main">
+<div class="wrap">
+  <section class="page-head">
+    <h1>Economy</h1>
+    <p class="lead">These figures cover Becker, Clearwater and Mahnomen counties. They describe the regional economy around the reservation, not Tribal employment.</p>
+  </section>
+  <section class="section" id="economy" aria-labelledby="economy-h">
+    <header><h2 id="economy-h">Regional economy</h2>
+      </header>
+    <div class="grid-2">
+      <div class="figure">
+        <h3>Business establishments by industry</h3>
+        <p class="sub" id="industry-sub"></p>
+        <div id="industry-chart" class="chart"></div>
+        <p class="source">Source: U.S. Census Bureau, County Business Patterns. Industries shown have complete county coverage in both years. Counts are establishments, not jobs or Tribal businesses.</p>
+      </div>
+      <div>
+        <div class="figure">
+          <h3>Jobs located in the region</h3>
+          <div id="jobs-chart" class="chart"></div>
+          <p class="source">Source: BLS Quarterly Census of Employment and Wages, annual averages, all ownerships.</p>
+        </div>
+        <div class="figure" style="margin-top: var(--gap)">
+          <h3>Unemployment rate</h3>
+          <div id="unemp-chart" class="chart"></div>
+          <p class="source">Source: BLS Local Area Unemployment Statistics, average of monthly values.</p>
+        </div>
+      </div>
+      <div class="figure">
+        <h3>Where jobs and workers meet, <span id="commute-year"></span></h3>
+        <p class="sub">Counts are jobs, not people. Flows to or from other states are not included.</p>
+        <div class="table-wrap"><table id="commute-table"><thead><tr><th>Measure</th><th class="num">Jobs</th></tr></thead><tbody></tbody></table></div>
+        <p class="source">Source: U.S. Census Bureau LEHD Origin-Destination Employment Statistics (LODES), main files.</p>
+      </div>
+    </div>
+  </section>
+</div>
+</main>
+<footer data-site-footer></footer>
+<script src="../assets/js/site-config.js"></script>
+<script src="../assets/vendor/d3.v7.9.0.min.js"></script>
+<script src="../assets/js/core.js"></script>
+<script src="../assets/js/charts.js"></script>
+<script src="../assets/js/maps.js"></script>
+<script src="../assets/js/navigator.js"></script>
+<script src="../assets/js/pages/nation.js"></script>
+</body>
+</html>

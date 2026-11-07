@@ -1,0 +1,72 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="robots" content="noindex, nofollow">
+<meta name="description" content="Community conditions, housing, the regional economy, land and energy, and a cited SWOT analysis for White Earth Nation, built from public federal data and published sources.">
+<title>Scenario | White Earth Nation</title>
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' rx='6' fill='%231c5fa0'/%3E%3Crect y='24' width='32' height='8' fill='%23ffffff'/%3E%3C/svg%3E">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Source+Serif+4:opsz,wght@8..60,500;8..60,600;8..60,700&family=Source+Sans+3:wght@400;600;700&display=swap">
+<link rel="stylesheet" href="../assets/css/style.css">
+<link rel="stylesheet" href="../assets/css/theme.css">
+</head>
+<body class="site-white-earth" data-root="../" data-page="scenario" data-nation="White Earth">
+<a class="skip-link" href="#main">Skip to content</a>
+<header data-site-header></header>
+<main id="main">
+<div class="wrap">
+  <section class="page-head">
+    <h1>Scenario</h1>
+    <p class="lead">An interactive calculator that shows how much an answer depends on its assumptions.</p>
+    <div class="caveat" style="margin-top:1.25rem"><p>These are illustrations of method. Inputs marked <span class="tag reference">reference</span> come from published benchmarks; inputs marked <span class="tag synthetic">illustrative</span> were invented to demonstrate the calculation. Neither calculator ranks or recommends a project.</p></div>
+  </section>
+  <section class="section" id="housing" aria-labelledby="housing-h" style="--nation:var(--whiteearth);--nation-text:var(--whiteearth-text);--nation-wash:var(--whiteearth-wash)">
+    <header><h2 id="housing-h">Rehabilitation or rental assistance, White Earth Nation</h2>
+      <p>For one household and the same quality of housing, how much could a rehabilitation cost upfront before paying ongoing rental assistance becomes the cheaper choice over the same period?</p></header>
+    <div class="calc">
+      <form class="figure illustrative" id="house-form" onsubmit="return false">
+        <div class="field"><label for="h-years">Comparison period <output id="h-years-o"></output></label>
+          <input type="range" id="h-years" min="5" max="40" step="1"><div class="hint"><span class="tag synthetic">illustrative</span> 20 years.</div></div>
+        <div class="field"><label for="h-rate">Discount rate <output id="h-rate-o"></output></label>
+          <input type="range" id="h-rate" min="0" max="0.15" step="0.005"><div class="hint"><span class="tag synthetic">illustrative</span> 7%.</div></div>
+        <div class="field"><label for="h-assist">Rental assistance per year <output id="h-assist-o"></output></label>
+          <input type="range" id="h-assist" min="0" max="40000" step="500"><div class="hint"><span class="tag synthetic">illustrative</span> $18,000 per year.</div></div>
+        <div class="field"><label for="h-upkeep">Rehabilitated home upkeep per year <output id="h-upkeep-o"></output></label>
+          <input type="range" id="h-upkeep" min="0" max="20000" step="250"><div class="hint"><span class="tag synthetic">illustrative</span> $5,000 per year.</div></div>
+        <div class="field"><label for="h-rehab">Rehabilitation cost to test <output id="h-rehab-o"></output></label>
+          <input type="range" id="h-rehab" min="0" max="400000" step="5000"><div class="hint"><span class="tag synthetic">illustrative</span> $150,000.</div></div>
+        <button type="button" class="reset" id="house-reset">Reset to defaults</button>
+      </form>
+      <div>
+        <div class="result">
+          <div class="big" id="house-out"></div>
+          <p id="house-text"></p>
+        </div>
+        <div class="figure">
+          <h3>Break-even rehabilitation cost by comparison period</h3>
+          <div id="house-chart" class="chart"></div>
+          <p class="source">Break-even cost = (assistance per year − upkeep per year) × annuity factor (period, rate). Same formula as the project's pipeline.</p>
+        </div>
+      </div>
+    </div>
+    <details class="notes"><summary>What this leaves out</summary><ul>
+      <li>Real bids, budgets, eligible program costs and property condition. None were available to this project.</li>
+      <li>Whether the household, location, tenure and quality of housing are actually equivalent between the two options.</li>
+      <li>For scale, the HUD 2025 total development cost ceilings recorded in the pipeline run from $438,741 (1 bedroom) to $644,506 (5 bedrooms). These are regulatory limits, not construction costs.</li>
+    </ul></details>
+  </section>
+</div>
+</main>
+<footer data-site-footer></footer>
+<script src="../assets/js/site-config.js"></script>
+<script src="../assets/vendor/d3.v7.9.0.min.js"></script>
+<script src="../assets/js/core.js"></script>
+<script src="../assets/js/charts.js"></script>
+<script src="../assets/js/maps.js"></script>
+<script src="../assets/js/navigator.js"></script>
+<script src="../assets/js/pages/scenarios.js"></script>
+</body>
+</html>

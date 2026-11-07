@@ -1,0 +1,75 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="robots" content="noindex, nofollow">
+<meta name="description" content="Community conditions, housing, the regional economy, land and energy, and a cited SWOT analysis for White Earth Nation, built from public federal data and published sources.">
+<title>Housing | White Earth Nation</title>
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' rx='6' fill='%231c5fa0'/%3E%3Crect y='24' width='32' height='8' fill='%23ffffff'/%3E%3C/svg%3E">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Source+Serif+4:opsz,wght@8..60,500;8..60,600;8..60,700&family=Source+Sans+3:wght@400;600;700&display=swap">
+<link rel="stylesheet" href="../assets/css/style.css">
+<link rel="stylesheet" href="../assets/css/theme.css">
+</head>
+<body class="site-white-earth" data-root="../" data-page="housing" data-nation="White Earth">
+<a class="skip-link" href="#main">Skip to content</a>
+<header data-site-header></header>
+<main id="main">
+<div class="wrap">
+  <section class="page-head">
+    <h1>Housing</h1>
+    <p class="lead">Why homes sit vacant, who carries high housing costs, and how old the housing stock is.</p>
+  </section>
+  <section class="section" id="housing" aria-labelledby="housing-h">
+    <header><h2 id="housing-h">Housing</h2></header>
+    <div class="grid-2">
+      <div class="figure">
+        <h3>Why vacant homes are vacant</h3>
+        <p class="sub" id="vacancy-sub"></p>
+        <div id="vacancy-chart" class="chart"></div>
+        <p class="source">Source: ACS table B25004, <span data-period>2020–2024</span>. Lines show 90% margins of error.</p>
+      </div>
+      <div class="figure">
+        <h3>Housing cost burden</h3>
+        <p class="sub">Share of households spending at least 30% (or 50%) of income on housing.</p>
+        <div id="burden-chart" class="chart"></div>
+        <p class="source">Source: ACS tables B25070 and B25091, <span data-period>2020–2024</span>. Households without a computable ratio are excluded.</p>
+      </div>
+      <div class="figure">
+        <h3>When homes were built</h3>
+        <p class="sub" id="age-sub"></p>
+        <div id="age-chart" class="chart"></div>
+        <p class="source">Source: ACS table B25034, <span data-period>2020–2024</span>.</p>
+      </div>
+    </div>
+  </section>
+  <section class="section" id="featured" aria-labelledby="featured-h">
+    <header><h2 id="featured-h">What sits behind the vacancy rate?</h2></header>
+    <div class="grid-2">
+      <div>
+        <p id="feature-summary" class="loading">Loading…</p>
+        <div class="caveat"><p>A vacant unit is not an available home. The survey cannot show condition, ownership, water and sewer service, or whether a unit could be occupied, and seasonal homes may be privately owned.</p></div>
+        <p id="feature-link" style="margin-top:1rem"></p>
+      </div>
+      <div class="figure">
+        <h3>Vacant housing units by reason</h3>
+        <ul class="legend" id="feature-legend"></ul>
+        <div id="feature-chart" class="chart"></div>
+        <p class="source">Source: ACS table B25004, 2020–2024. Other reasons combine for rent, for sale, rented or sold but unoccupied, migrant worker housing and other vacant.</p>
+      </div>
+    </div>
+  </section>
+</div>
+</main>
+<footer data-site-footer></footer>
+<script src="../assets/js/site-config.js"></script>
+<script src="../assets/vendor/d3.v7.9.0.min.js"></script>
+<script src="../assets/js/core.js"></script>
+<script src="../assets/js/charts.js"></script>
+<script src="../assets/js/maps.js"></script>
+<script src="../assets/js/navigator.js"></script>
+<script src="../assets/js/pages/nation.js"></script>
+</body>
+</html>
